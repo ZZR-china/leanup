@@ -9,6 +9,8 @@ var router = require('express').Router();
 
 
 
+
+
 router.get('/', function(req, res) {
     //判断是否是第一页，并把请求的页数转换成 number 类型
     var page = req.query.p ? parseInt(req.query.p) : 1;
@@ -29,6 +31,7 @@ router.get('/', function(req, res) {
         });
     });
 });
+
 
 router.get('/reg', checkNotLogin);
 router.get('/reg', function(req, res) {
