@@ -8,8 +8,70 @@ var config = {
 };
 
 var WechatAPI = require('wechat-api');
+
 var api = new WechatAPI('wx69ea90a0852fd73d',
   '4b7e21a506ede8ff1264576eec89513b');
+
+
+
+// router.use('/', wechat(config, function (req, res, next){
+//   var message = req.wexin;
+//   var keyArray = ['你好','张子锐', '胡清华', '朱逸林', '李水莲'];
+//   var keyIndex = keyArray.indexOf(message);
+
+//   switch(keyIndex){
+//     case 0:
+//       {
+//         res.reply({
+//           content: 'hello!',
+//           type: 'text'
+//         });
+//       }
+//       break;
+//     case 1:
+//       {
+//         res.reply({
+//           content: '帅!',
+//           type: 'text'
+//         });
+//       }
+//       break;
+//     case 2:
+//       {
+//         res.reply({
+//           content: '张子锐的妈妈!',
+//           type: 'text'
+//         });
+
+//       }
+//       break;
+//     case 3:
+//       {
+//         res.reply({
+//           content: '辣鸡!',
+//           type: 'text'
+//         });
+//       }
+//       break;
+//     case 4:
+//       {
+//         res.reply({
+//           content: '美女!',
+//           type: 'text'
+//         });
+//       }
+//       break;
+//     default:
+//       {
+//         res.reply({
+//           content: '换点别的词说呗!',
+//           type: 'text'
+//         });
+
+//       }
+//       break;
+//   };
+// }));
 
 router.use('/', wechat(config.token).text(function(message, req, res, next) {
   // message为文本内容
@@ -18,35 +80,61 @@ router.use('/', wechat(config.token).text(function(message, req, res, next) {
   // MsgType: 'text',
   // Content: 'http',
   // MsgId: '5837397576500011341' }
-  var keyArray = ['你好', '约吗'];
+  var keyArray = ['你好','张子锐', '胡清华', '朱逸林', '李水莲'];
   var content = message.Content;
   var keyIndex = keyArray.indexOf(content);
-  switch (keyIndex) {
+  switch(keyIndex){
     case 0:
       {
         res.reply({
-          type: "text",
-          content: '您好，大家好才是真的好！'
+          content: 'hello!',
+          type: 'text'
         });
-
       }
       break;
     case 1:
       {
         res.reply({
-          type: "text",
-          content: '不约，不约，叔叔我们不约！'
+          content: '帅!',
+          type: 'text'
+        });
+      }
+      break;
+    case 2:
+      {
+        res.reply({
+          content: '张子锐的妈妈!',
+          type: 'text'
         });
 
       }
       break;
-    default:
-      res.reply({
-        type: "text",
-        content: '服务器挂掉了，你的要求暂时无法满足……'
-      });
+    case 3:
+      {
+        res.reply({
+          content: '辣鸡!',
+          type: 'text'
+        });
+      }
       break;
-  }
+    case 4:
+      {
+        res.reply({
+          content: '美女!',
+          type: 'text'
+        });
+      }
+      break;
+    default:
+      {
+        res.reply({
+          content: '换点别的词说呗!',
+          type: 'text'
+        });
+
+      }
+      break;
+  };
 }).image(function(message, req, res, next) {
   // message为图片内容
   // { ToUserName: 'gh_d3e07d51b513',

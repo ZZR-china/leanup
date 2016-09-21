@@ -43,6 +43,7 @@ app.use('/todos', todos);
 // app.use('/wechat', wechat);
 
 //controller use
+app.use(express.query());
 app.use('/wechatbot', wechatBot);
 
 app.use(function(req, res, next) {
