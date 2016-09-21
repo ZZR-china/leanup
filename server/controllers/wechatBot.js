@@ -12,67 +12,6 @@ var WechatAPI = require('wechat-api');
 var api = new WechatAPI('wx69ea90a0852fd73d',
   '4b7e21a506ede8ff1264576eec89513b');
 
-
-
-// router.use('/', wechat(config, function (req, res, next){
-//   var message = req.wexin;
-//   var keyArray = ['你好','张子锐', '胡清华', '朱逸林', '李水莲'];
-//   var keyIndex = keyArray.indexOf(message);
-
-//   switch(keyIndex){
-//     case 0:
-//       {
-//         res.reply({
-//           content: 'hello!',
-//           type: 'text'
-//         });
-//       }
-//       break;
-//     case 1:
-//       {
-//         res.reply({
-//           content: '帅!',
-//           type: 'text'
-//         });
-//       }
-//       break;
-//     case 2:
-//       {
-//         res.reply({
-//           content: '张子锐的妈妈!',
-//           type: 'text'
-//         });
-
-//       }
-//       break;
-//     case 3:
-//       {
-//         res.reply({
-//           content: '辣鸡!',
-//           type: 'text'
-//         });
-//       }
-//       break;
-//     case 4:
-//       {
-//         res.reply({
-//           content: '美女!',
-//           type: 'text'
-//         });
-//       }
-//       break;
-//     default:
-//       {
-//         res.reply({
-//           content: '换点别的词说呗!',
-//           type: 'text'
-//         });
-
-//       }
-//       break;
-//   };
-// }));
-
 router.use('/', wechat(config.token).text(function(message, req, res, next) {
   // message为文本内容
   // FromUserName: 'oPKu7jgOibOA-De4u8J2RuNKpZRw',
@@ -120,7 +59,7 @@ router.use('/', wechat(config.token).text(function(message, req, res, next) {
     case 4:
       {
         res.reply({
-          content: '美女!',
+          content: '美女，交个朋友呗',
           type: 'text'
         });
       }

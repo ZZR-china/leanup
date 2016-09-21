@@ -1,0 +1,476 @@
+[Wed Sep 21 2016 16:43:29 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:43:38 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:43:43 GMT+0800 (中国标准时间)] /todos
+Error: You must specify your applicationId using AV.init()
+    at AVRequest (F:\onedrive\GIT\leanup\node_modules\leancloud-storage\dist\node\request.js:268:11)
+    at Object._createRequest (F:\onedrive\GIT\leanup\node_modules\leancloud-storage\dist\node\query.js:254:14)
+    at Object.find (F:\onedrive\GIT\leanup\node_modules\leancloud-storage\dist\node\query.js:269:26)
+    at F:\onedrive\GIT\leanup\routes\todos.js:14:11
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (F:\onedrive\GIT\leanup\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:166:3)
+    at router (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:35:12)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+[Wed Sep 21 2016 16:43:43 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:43:48 GMT+0800 (中国标准时间)] /blog
+ReferenceError: F:\onedrive\GIT\leanup\client\views\index.ejs:10
+    8|     <h1>LeanEngine</h1>
+    9|     <p>这是 LeanEngine 的示例应用</p>
+ >> 10|     <p>当前时间：<%= currentTime %></p>
+    11|     <p><a href="/todos">一个简单的「TODO 列表」示例</a></p>
+    12|     <p><a href="/blog">一个blog示例</a></p>
+    13|   </body>
+
+currentTime is not defined
+    at eval (eval at <anonymous> (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:11:28)
+    at F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (F:\onedrive\GIT\leanup\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (F:\onedrive\GIT\leanup\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (F:\onedrive\GIT\leanup\node_modules\express\lib\response.js:938:7)
+    at F:\onedrive\GIT\leanup\routes\blog.js:18:13
+    at F:\onedrive\GIT\leanup\models\M_post.js:98:11
+    at handleCallback (F:\onedrive\GIT\leanup\node_modules\mongodb\lib\utils.js:96:12)
+    at F:\onedrive\GIT\leanup\node_modules\mongodb\lib\cursor.js:853:16
+    at handleCallback (F:\onedrive\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at setCursorDeadAndNotified (F:\onedrive\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:507:3)
+    at nextFunction (F:\onedrive\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:651:7)
+    at Cursor.next [as _next] (F:\onedrive\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:692:3)
+    at fetchDocs (F:\onedrive\GIT\leanup\node_modules\mongodb\lib\cursor.js:849:10)
+    at F:\onedrive\GIT\leanup\node_modules\mongodb\lib\cursor.js:872:7
+[Wed Sep 21 2016 16:43:48 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:46:09 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:46:14 GMT+0800 (中国标准时间)] /todos
+Error: You must specify your applicationId using AV.init()
+    at AVRequest (F:\onedrive\GIT\leanup\node_modules\leancloud-storage\dist\node\request.js:268:11)
+    at Object._createRequest (F:\onedrive\GIT\leanup\node_modules\leancloud-storage\dist\node\query.js:254:14)
+    at Object.find (F:\onedrive\GIT\leanup\node_modules\leancloud-storage\dist\node\query.js:269:26)
+    at F:\onedrive\GIT\leanup\routes\todos.js:14:11
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (F:\onedrive\GIT\leanup\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:166:3)
+    at router (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:35:12)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+[Wed Sep 21 2016 16:46:14 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:48:20 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:48:23 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:48:29 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:48:29 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:19 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:19 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:43 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:44 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:48 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:52 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:49:52 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:50:46 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:50:51 GMT+0800 (中国标准时间)] /blog
+Error: ENOENT: no such file or directory, open 'F:\onedrive\GIT\leanup\client\views\paging.ejs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:634:18)
+    at Object.fs.readFileSync (fs.js:502:33)
+    at includeSource (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:194:17)
+    at F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:512:24
+    at Array.forEach (native)
+    at Object.Template.generateSource (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:493:15)
+    at Object.Template.compile (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:416:12)
+    at Object.compile (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:288:16)
+    at handleCache (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:147:16)
+    at View.exports.renderFile [as engine] (F:\onedrive\GIT\leanup\node_modules\ejs\lib\ejs.js:348:14)
+    at View.render (F:\onedrive\GIT\leanup\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (F:\onedrive\GIT\leanup\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (F:\onedrive\GIT\leanup\node_modules\express\lib\response.js:938:7)
+    at F:\onedrive\GIT\leanup\routes\blog.js:20:13
+    at F:\onedrive\GIT\leanup\models\M_post.js:98:11
+[Wed Sep 21 2016 16:50:51 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:51:37 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:51:44 GMT+0800 (中国标准时间)] /archive
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Wed Sep 21 2016 16:51:44 GMT+0800 (中国标准时间)] /stylesheets/style.css
+Error: Not Found
+    at F:\onedrive\GIT\leanup\app.js:82:15
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at query (F:\onedrive\GIT\leanup\node_modules\express\lib\middleware\query.js:28:5)
+    at Layer.handle [as handle_request] (F:\onedrive\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\onedrive\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\onedrive\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
