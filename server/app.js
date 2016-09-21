@@ -1,22 +1,26 @@
 'use strict';
-const express = require('express');
-const timeout = require('connect-timeout');
-const path = require('path');
-const cookieParser = require('cookie-parser');
-const bodyParser = require('body-parser');
-const AV = require('leanengine');
+var express = require('express');
+var timeout = require('connect-timeout');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+var AV = require('leanengine');
+var config = require('../config.js');
 
 
 //import routes
-const todos = require('./routes/todos');
-const wechat = require('./routes/todos');
+var todos = require('../client/routes/todos.js');
+// var wechat = require('../client/routes/weichat.js');
 
-const app = express();
+//import controllers
+var wechatBot = require('./controllers/wechatBot');
+
+var app = express();
 
 // 设置模板引擎
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(config.rootname + '/client/views/'));
 app.set('view engine', 'ejs');
-app.use(express.static('public'));
+app.use(express.static('../client/statics/'));
 
 // 设置默认超时时间
 app.use(timeout('15s'));
@@ -36,7 +40,10 @@ app.get('/', function(req, res) {
 
 // 可以将一类的路由单独保存在一个文件中
 app.use('/todos', todos);
-app.use('/wechat', wechat);
+// app.use('/wechat', wechat);
+
+//controller use
+app.use('/wechatbot', wechatBot);
 
 app.use(function(req, res, next) {
   // 如果任何一个路由都没有返回响应，则抛出一个 404 异常给后续的异常处理器
