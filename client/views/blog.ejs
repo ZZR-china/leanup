@@ -1,5 +1,6 @@
 <%- include partials/header %>
 <% posts.forEach(function (post, index) { %>
+  <div class="blog-block">
   <p><h2><a href="u/<%= post.name %>/<%= post.time.day %>/<%= post.title %>"><%= post.title %></a></h2><a href="/u/<%= post.name %>"><img src="<%= post.head %>" class="r_head" /></a></p>
   <p class="info">
   <% if (post.reprint_info.reprint_from) { %>
@@ -24,7 +25,7 @@
   <% } else { %>
     <%= 0 %>
   <% } %>
-</p>
+</p></div>
   <% }) %>
 <%- include partials/paging %>
 <%- include partials/footer %>
