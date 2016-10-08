@@ -529,3 +529,242 @@ TypeError: User.get is not a function
     at Immediate.immediate._onImmediate (timers.js:590:18)
     at tryOnImmediate (timers.js:543:15)
     at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Sat Oct 08 2016 17:23:54 GMT+0800 (中国标准时间)] /demoblog
+ServiceUnavailableError: Response timeout
+    at IncomingMessage.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:70:8)
+    at emitOne (events.js:96:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at Timeout._onTimeout (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 17:26:41 GMT+0800 (中国标准时间)] /demoblog
+ServiceUnavailableError: Response timeout
+    at IncomingMessage.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:70:8)
+    at emitOne (events.js:96:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at Timeout._onTimeout (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 17:28:38 GMT+0800 (中国标准时间)] /demoblog
+ServiceUnavailableError: Response timeout
+    at IncomingMessage.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:70:8)
+    at emitOne (events.js:96:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at Timeout._onTimeout (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 17:32:21 GMT+0800 (中国标准时间)] /demoblog
+ServiceUnavailableError: Response timeout
+    at IncomingMessage.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:70:8)
+    at emitOne (events.js:96:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at Timeout._onTimeout (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 17:33:43 GMT+0800 (中国标准时间)] /demoblog
+ServiceUnavailableError: Response timeout
+    at IncomingMessage.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:70:8)
+    at emitOne (events.js:96:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at Timeout._onTimeout (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 17:34:43 GMT+0800 (中国标准时间)] /demoblog
+TypeError: Post.getSkip is not a function
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:36:10
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:166:3)
+    at router (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:35:12)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Sat Oct 08 2016 17:35:13 GMT+0800 (中国标准时间)] /demoblog
+TypeError: Post.getSkip is not a function
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:36:10
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:166:3)
+    at router (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:35:12)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Sat Oct 08 2016 17:35:14 GMT+0800 (中国标准时间)] /demoblog
+TypeError: Post.getSkip is not a function
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:36:10
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:267:22
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:166:3)
+    at router (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:35:12)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[Sat Oct 08 2016 17:35:32 GMT+0800 (中国标准时间)] /demoblog
+ServiceUnavailableError: Response timeout
+    at IncomingMessage.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:70:8)
+    at emitOne (events.js:96:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at Timeout._onTimeout (F:\ONEDRIVE\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 17:50:56 GMT+0800 (中国标准时间)] /demoblog?p=4
+TypeError: F:\ONEDRIVE\GIT\leanup\client\views\blogdemo.ejs:7
+    5|   <p class="info">
+    6|   <% if (post.reprint_info.reprint_from) { %>
+ >> 7|   <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    8| <% } %>
+    9|     作者：<a href="u/<%= post.name %>"><%= post.name %></a> |
+    10|     日期：<%= post.time.minute %>
+
+page.forEach is not a function
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:136:13)
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:154:9)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\response.js:938:7)
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:40:13
+    at F:\ONEDRIVE\GIT\leanup\models\M_post.js:139:11
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\utils.js:96:12)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:853:16
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at setCursorDeadAndNotified (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:507:3)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:599:12)
+    at Cursor.next [as _next] (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:692:3)
+    at fetchDocs (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:849:10)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:872:7
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:682:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:593:7
+    at queryCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:233:18)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\connection\pool.js:436:18
+[Sat Oct 08 2016 17:52:28 GMT+0800 (中国标准时间)] /demoblog
+TypeError: F:\ONEDRIVE\GIT\leanup\client\views\blogdemo.ejs:7
+    5|   <p class="info">
+    6|   <% if (post.reprint_info.reprint_from) { %>
+ >> 7|   <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    8| <% } %>
+    9|     作者：<a href="u/<%= post.name %>"><%= post.name %></a> |
+    10|     日期：<%= post.time.minute %>
+
+page.forEach is not a function
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:136:13)
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:154:9)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\response.js:938:7)
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:40:13
+    at F:\ONEDRIVE\GIT\leanup\models\M_post.js:139:11
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\utils.js:96:12)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:853:16
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at setCursorDeadAndNotified (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:507:3)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:599:12)
+    at Cursor.next [as _next] (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:692:3)
+    at fetchDocs (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:849:10)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:872:7
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:682:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:593:7
+    at queryCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:233:18)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\connection\pool.js:436:18
+[Sat Oct 08 2016 17:54:12 GMT+0800 (中国标准时间)] /demoblog
+TypeError: F:\ONEDRIVE\GIT\leanup\client\views\blogdemo.ejs:7
+    5|   <p class="info">
+    6|   <% if (post.reprint_info.reprint_from) { %>
+ >> 7|   <br><a href="/u/<%= post.reprint_info.reprint_from.name %>/<%= post.reprint_info.reprint_from.day %>/<%= post.reprint_info.reprint_from.title %>">原文链接</a>
+    8| <% } %>
+    9|     作者：<a href="u/<%= post.name %>"><%= post.name %></a> |
+    10|     日期：<%= post.time.minute %>
+
+total.forEach is not a function
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:136:14)
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:154:9)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\response.js:938:7)
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:40:13
+    at F:\ONEDRIVE\GIT\leanup\models\M_post.js:139:11
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\utils.js:96:12)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:853:16
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at setCursorDeadAndNotified (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:507:3)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:599:12)
+    at Cursor.next [as _next] (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:692:3)
+    at fetchDocs (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:849:10)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:872:7
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:682:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:593:7
+    at queryCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:233:18)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\connection\pool.js:436:18
+[Sat Oct 08 2016 17:54:47 GMT+0800 (中国标准时间)] /demoblog
+TypeError: F:\ONEDRIVE\GIT\leanup\client\views\blogdemo.ejs:31
+    29|   <% }) %>
+    30| 
+ >> 31| <% total.forEach(function(num, index){ %>
+    32|         <span><% num %></span>
+    33|     <% } ) %>
+    34| 
+
+total.forEach is not a function
+    at eval (eval at <anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:455:12), <anonymous>:124:14)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:482:14
+    at View.exports.renderFile [as engine] (F:\ONEDRIVE\GIT\leanup\node_modules\ejs\lib\ejs.js:348:31)
+    at View.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\view.js:93:8)
+    at EventEmitter.app.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\application.js:566:10)
+    at ServerResponse.res.render (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\response.js:938:7)
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:40:13
+    at F:\ONEDRIVE\GIT\leanup\models\M_post.js:139:11
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\utils.js:96:12)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:853:16
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at setCursorDeadAndNotified (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:507:3)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:599:12)
+    at Cursor.next [as _next] (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:692:3)
+    at fetchDocs (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:849:10)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb\lib\cursor.js:872:7
+    at handleCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:172:5)
+    at nextFunction (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:682:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:593:7
+    at queryCallback (F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\cursor.js:233:18)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\mongodb-core\lib\connection\pool.js:436:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)

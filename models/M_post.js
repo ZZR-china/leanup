@@ -102,6 +102,47 @@ Post.getTen = function(name, page, callback) {
   });
 };
 
+//get page by skip
+Post.getSkip = function(skip, name, page, callback) {
+  //打开数据库
+  mongodb.connect(settings.url, function (err, db) {
+    if (err) {
+      return callback(err);
+    }
+    //读取 posts 集合
+    db.collection('posts', function (err, collection) {
+      if (err) {
+        db.close();
+        return callback(err);
+      }
+      var query = {};
+      if (name) {
+        query.name = name;
+      }
+      //使用 count 返回特定查询的文档数 total
+      collection.count(query, function (err, total) {
+        //根据 query 对象查询，并跳过前 (page-1)*10 个结果，返回之后的 10 个结果
+        collection.find(query, {
+          skip: (page - 1)* skip,
+          limit: skip
+        }).sort({
+          time: -1
+        }).toArray(function (err, docs) {
+          db.close();
+          if (err) {
+            return callback(err);
+          }
+          //解析 markdown 为 html
+          docs.forEach(function (doc) {
+            doc.post = markdown.toHTML(doc.post);
+          });
+          callback(null, docs, total);
+        });
+      });
+    });
+  });
+};
+
 //获取一篇文章
 Post.getOne = function(name, day, title, callback) {
   //打开数据库

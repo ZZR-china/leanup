@@ -30,6 +30,26 @@ router.get('/', function(req, res) {
     });
 });
 
+router.get('/demoblog', function(req, res) {
+    var page = req.query.p ? parseInt(req.query.p) : 1;
+    var skip1 = req.query.skip ? parseInt(req.query.skip) : 2;
+    Post.getSkip(skip1, null, page, function(err, posts, total) {
+        if (err) {
+            posts = []
+        }
+        res.render('blogdemo', {
+            title: 'page paginate demo',
+            posts: posts,
+            page: page,
+            isFirstPage: (page - 1) == 0,
+            isLastPage: ((page - 1) * skip1 + posts.length) == total,
+            user: req.session.user,
+            success: req.flash('success').toString(),
+            error: req.flash('error').toString(),
+            total: total / skip1
+        })
+    })
+});
 
 router.get('/reg', checkNotLogin);
 router.get('/reg', function(req, res) {
