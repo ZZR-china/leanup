@@ -6,3 +6,5 @@ start.sh
 *~
 *.swp
 .avoscloud/
+
+.access.log
