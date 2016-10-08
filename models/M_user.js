@@ -50,7 +50,7 @@ User.prototype.save = function(callback) {
 };
 
 //读取用户信息
-User.get = function(name, callback) {
+User.prototype.get = function(name, callback) {
     userModel.findOne({name:name},function(err,user){
       if (err) {
         return callback(err);
