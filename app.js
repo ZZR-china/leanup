@@ -19,7 +19,7 @@ var accessLog = fs.createWriteStream('access.log', {flags: 'a'});
 var errorLog = fs.createWriteStream('error.log', {flags: 'a'});
 
 //import routes
-var todosRoute = require('./routes/todos');
+// var todosRoute = require('./routes/todos');
 var blogRoute = require('./routes/blog');
 // var wechat = require('/routes/weichat.js');
 
@@ -69,7 +69,7 @@ app.use(session({
 // });
 
 //use route
-app.use('/todos', todosRoute);
+// app.use('/todos', todosRoute);
 app.use('/', blogRoute);
 
 //controller use

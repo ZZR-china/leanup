@@ -506,3 +506,26 @@ ServiceUnavailableError: Response timeout
     at Timeout._onTimeout (F:\onedrive\GIT\leanup\node_modules\connect-timeout\index.js:43:11)
     at tryOnTimeout (timers.js:224:11)
     at Timer.listOnTimeout (timers.js:198:5)
+[Sat Oct 08 2016 16:53:45 GMT+0800 (中国标准时间)] /u/123
+TypeError: User.get is not a function
+    at F:\ONEDRIVE\GIT\leanup\routes\blog.js:238:10
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:110:13)
+    at Route.dispatch (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\route.js:91:3)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:267:22
+    at param (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:340:14)
+    at param (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:356:14)
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:400:3)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Function.proto.handle (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:166:3)
+    at router (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:35:12)
+    at Layer.handle [as handle_request] (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\layer.js:82:5)
+    at trim_prefix (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:302:13)
+    at F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:270:7
+    at Function.proto.process_params (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:321:12)
+    at next (F:\ONEDRIVE\GIT\leanup\node_modules\express\lib\router\index.js:261:10)
+    at Immediate.<anonymous> (F:\ONEDRIVE\GIT\leanup\node_modules\express-session\index.js:473:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
