@@ -8,3 +8,5 @@ start.sh
 .avoscloud/
 
 .access.log
+
+config.js
